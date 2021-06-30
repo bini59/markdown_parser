@@ -1,6 +1,9 @@
 .mark-container{
     display: flex;
     justify-content: space-evenly;
+
+    height: 500px;
+    padding: 50px;
 }
 
 .mark-view{
