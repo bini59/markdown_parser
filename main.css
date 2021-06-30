@@ -1,0 +1,13 @@
+.mark-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mark-view{
+    width: 500px;
+    height: 300px;
+
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.17);
+    border-radius: 0.25rem;
+}
+
