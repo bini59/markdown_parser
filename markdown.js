@@ -1,5 +1,15 @@
 const log = console.log
 
+
+/*
+    write your 
+    input element id,
+    output element id
+
+*/
+const input = "#input";
+const output = "#output";
+
 const parse_md = (text)=>{
 
     // parse lists
@@ -111,7 +121,7 @@ const parse_img = (text)=>{
 }
 
 window.onload = ()=>{
-    $("#input")[0].addEventListener("keyup", (e)=>{
-        $("#output")[0].innerHTML = parse_md($("#input")[0].innerText);
+    $(input)[0].addEventListener("keyup", (e)=>{
+        $(output)[0].innerHTML = parse_md($(input)[0].innerText);
     })
 }
